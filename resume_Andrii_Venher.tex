@@ -1,0 +1,143 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{#2 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{4pt}
+}
+
+\newcommand{\resumeSubheadingPosition}[2]{
+  \vspace{2pt}
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{0pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Andrii Venher} & \href{mailto:vengerandr@gmail.com}{vengerandr@gmail.com} \\
+  & \href{https://www.linkedin.com/in/andriivenher}{LinkedIn} \\
+  & \href{https://github.com/andrii-venher}{GitHub}
+\end{tabular*}
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading{\href{https://www.flexdevgroup.com/}{FlexDev}}{Poznan, Poland + Remote}{Middle .NET developer}{Jun 2022 - Present}
+{}
+
+\resumeSubheading
+{Private Tutoring}{Odesa, Ukraine + Remote}
+{Physics, Math, Programming}{Jun 2021 - Jun 2022}
+{One-on-one tutoring sessions with students from Ukraine, Poland, and the USA. Preparation for the exams DPA, ZNO (Ukraine), and Matura (Poland).}
+
+\resumeSubHeadingListEnd
+
+\section{Technical skills}
+\resumeSubHeadingListStart
+\itemsep 0.5em
+
+\resumeSubItem{Confident in: }
+{C\# 10, .NET 6, ASP.NET Core, EF Core, SQL (MSSQLServer), NoSQL (Azure CosmosDb), Blazor, Microservices, Azure DevOps, Scrum.}
+
+\resumeSubItem{Familiar with: }
+{DDD, Docker, RabbitMQ, GraphQL, C++, JavaScript, TypeScript, Node.js.}
+
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Lodz}{Lodz, Poland}
+{Bachelor of Computer Science}{Oct 2021 - Jul 2024}
+{Erasmus mobility at the University of Luxembourg (Sep 2022 - Feb 2023).}
+
+\resumeSubheading
+{IT Step Computer Academy}{Odesa, Ukraine}
+{Software Engineering course}{Dec 2019 - May 2022}
+{GPA 5/5.}
+
+\resumeSubheading
+{Richelieu Lyceum}{Odesa, Ukraine}
+{Physics course}{Sep 2016 - May 2021}
+{GPA 11.8/12. Gold Medal for high academic achievement.}
+
+\resumeSubHeadingListEnd
+
+\section{Languages}
+\resumeSubHeadingListStart
+\itemsep -2em
+
+\resumeSubheading
+{English - Advanced}{}
+{}{}
+\resumeSubheading
+{Russian - Native}{}
+{}{}
+\resumeSubheading
+{Ukrainian - Native}{}
+{}{}
+\resumeSubheading
+{Polish - Intermediate}{}
+{}{}
+\resumeSubheading
+{German - Pre-Intermediate}{}
+{}{}
+\resumeSubheading
+{French - Elementary}{}
+{}{}
+
+\resumeSubHeadingListEnd
+
+\end{document}
